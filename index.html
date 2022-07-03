@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip | Calculator</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="data">
+            <!-- first -->
+            <div class="first">
+                <h2>Tip Calculator</h2>
+                <label for="">Amount:</label>
+                <input type="number" placeholder="Enter amount..." id="first_amt" />
+                <div class="bar">
+                    <div class="values">
+                        <input type="range" name="range" min="0" max="100" value="0" id="bar" class="slider" />
+                        <span id="percentage"></span>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <!-- second -->
+            <div class="second">
+                <h2>Total Bill</h2>
+                <div class="second_data">
+                    <label for="tip">Tip Amount:</label>
+                    <input type="number" disabled id="tip_amt" placeholder="Tip amount..." />
+                    <label for="totalBill">Total Bill:</label>
+                    <input type="number" id="total_amt" disabled placeholder="Total amount" />
+                </div>
+                <div class="btn">
+                    <button id="btn" onclick="getAmt()">Total</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 100px;
+}
+
+.container .data {
+  width: 500px;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 32px #d0d0d0;
+          box-shadow: 0px 5px 32px #d0d0d0;
+}
+
+.container .data .first {
+  margin-bottom: 50px;
+}
+
+.container .data .first h2 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.container .data input {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: lightslategrey;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  font-size: 20px;
+}
+
+.container .data input:focus {
+  border: 0.15rem solid lightseagreen;
+}
+
+.container .data .bar .slider {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.container .data label {
+  display: block;
+}
+
+.container .data .second h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.container .data .second .second_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+
+.container .data .second #btn {
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  color: green;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=index.css.map */
